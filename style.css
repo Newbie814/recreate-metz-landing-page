@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 *,
 ::after,
 ::before {
@@ -55,6 +57,10 @@ body {
 
 .right {
   margin-left: 1.5rem;
+}
+
+.mobile-no-credit {
+  display: none;
 }
 
 .top-right-icon {
@@ -125,4 +131,55 @@ svg {
 a {
   text-decoration: none;
   color: white;
+}
+
+@media screen and (max-width: 928px) {
+  .icon {
+    display: none;
+  }
+
+  .nav-left-container {
+    padding-left: 1.5rem;
+  }
+
+  .nav-right-container {
+    margin-right: 1.5rem;
+  }
+
+  .check-mark,
+  .no-credit-card {
+    display: none;
+  }
+
+  .mobile-no-credit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #000;
+    background-color: rgb(228, 228, 228);
+    padding: 0.5rem 0;
+  }
+
+  .right {
+    margin: 0;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .logo-container {
+    padding-top: 3rem;
+  }
+  .main-hero-text {
+    font-size: 2.7rem;
+    padding-top: 12.5rem;
+    font-weight: 700;
+  }
+
+  .hero-right-content {
+    padding-top: 1.5rem;
+  }
 }

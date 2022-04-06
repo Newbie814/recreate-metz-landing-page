@@ -11,12 +11,61 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 130vh;
 }
 
 body {
   color: #fff;
   font-family: 'Roboto', sans-serif;
+}
+
+.navbar-container {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.7rem 0;
+}
+
+.arrow-label {
+  padding-right: 2rem;
+}
+
+.nav-left-container {
+  display: flex;
+  padding-left: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  padding-right: 1rem;
+}
+
+.nav-right-container {
+  display: flex;
+  margin-right: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  margin-left: 1.5rem;
+}
+
+.top-right-icon {
+  width: 18px;
+  height: 18px;
+}
+
+button {
+  background-color: #583bb6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 24px;
+  color: #fff;
+  border-radius: 50px;
 }
 
 .logo-container {

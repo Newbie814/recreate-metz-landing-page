@@ -19,6 +19,7 @@ html {
 body {
   color: #fff;
   font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
 }
 
 .navbar-container {
@@ -93,6 +94,7 @@ button:hover {
   max-width: 80vw;
   margin: 0 auto;
   gap: 50px;
+  line-height: 1.2;
 }
 
 svg {
@@ -106,9 +108,14 @@ svg {
   font-weight: 700;
 }
 
+.hero-left {
+  max-width: 700px;
+}
+
 .hero-right {
   position: relative;
   height: 90vh;
+  max-width: 460px;
 }
 
 .hero-right-content {

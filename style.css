@@ -27,6 +27,10 @@ body {
   padding: 1.7rem 0;
 }
 
+.arrow-left {
+  padding-right: 1rem;
+}
+
 .arrow-label {
   padding-right: 2rem;
 }
@@ -63,9 +67,13 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 10px 24px;
+  padding: 12px 34px;
   color: #fff;
   border-radius: 50px;
+}
+
+button:hover {
+  background-color: #3d2e88;
 }
 
 .logo-container {
